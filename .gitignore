@@ -94,6 +94,26 @@ venv.bak/
 .spyderproject
 .spyproject
 
+# Local History for Visual Studio
+.localhistory/
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+
+# Dump file
+*.stackdump
+
+# Folder config file
+[Dd]esktop.ini
+
+# Windows shortcuts
+*.lnk
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
 # Rope project settings
 .ropeproject
 
