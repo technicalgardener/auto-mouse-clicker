@@ -18,8 +18,8 @@ class GUI():
         self.main = tk.Tk()
 
         # interface creation
-        self.main.title("AutoClicker 0.1")
-        self.main.iconbitmap('Mouse.ico')
+        self.main.title("AutoClicker")
+        self.main.iconbitmap('mouse.ico')
         self.createWidgets()
 
     # method for creating message boxes
@@ -37,7 +37,7 @@ class GUI():
     def _printVars(self):
         vars = self._getVars()
         print(vars, self.repeatVar.get())
-    
+
     # collects variables frequently used together into a tuple
     def _getVars(self):
         # collect seconds and milliseconds variables and put them into one meaningful float for total seconds between clicks
@@ -117,7 +117,7 @@ class GUI():
             else:
                 pass
 
-# not sure how to implement this 
+# not sure how to implement this
 # the idea is to pause app briefly when mouse movement detected
 # this listener causes bad mouse lag
 # instead modified f2 key above in on_press to briefely pause clicker
@@ -147,7 +147,7 @@ class GUI():
         # warning message displayed in the event no radio button has been selected
         else:
             self._msgBox(1, "Radio not selected", "Please select a repeat condition under 'Click Repeat' section to begin.")
-    
+
     # method pauses clicker automation
     def pauseClickr(self):
         self.pause = True
@@ -281,4 +281,3 @@ class GUI():
         self.hotkeyDetectThread()
 #        self.moveDetectThread()
         self.main.mainloop()
-
