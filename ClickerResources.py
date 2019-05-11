@@ -177,7 +177,7 @@ class GUI():
 
     # method to display info message about the app
     def about(self):
-        self._msgBox(0,"AutoClicker alpha", "An autoclicker with GUI. \nIncludes threading for pausing app. \nCreated by CMikkelborg")
+        self._msgBox(0,"ClickerApp", "An autoclicker with GUI. \nIncludes threaded callbacks to allow responsive GUI during operation and ability to end an automation task on-demand. \nCreated by CMikkelborg")
 
     # method to shut down GUI
     def quit(self):
