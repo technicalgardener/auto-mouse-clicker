@@ -16,7 +16,8 @@ Originally I had built in the ability to pause the clicker on movement of the mo
 ### To do
 - customizable hotkeys
 - customizable delayed start
-- pause on mouse movement
+- ability to pause on mouse movement
+- ability to add randomization to clicks
 - add better exception handling (does not break as is)
 
 ### Written with
