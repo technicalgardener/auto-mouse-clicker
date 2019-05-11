@@ -17,7 +17,7 @@ Originally I had built in the ability to pause the clicker on movement of the mo
 - customizable hotkeys
 - customizable delayed start
 - pause on mouse movement
-- add exception handling
+- add more exception handling (does not break as is)
 
 ### Written with
 - python
