@@ -1,5 +1,5 @@
 # urban-octo-system
-This is a mouse click automation tool. It's my first app!
+This is a customizable mouse click automation tool. It's my first app!
 ### Features
 - GUI w/ threaded callbacks
 - adjustable delay between clicks
