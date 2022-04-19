@@ -26,4 +26,4 @@ Originally I had built in the ability to pause the clicker on movement of the mo
 - pynput library
 
 ### Acknowledgements
-My inspiration for this app was from AutoClicker by mousetool, however I have neither seen nor used any of their code in the creation of this app. My goal was to use the knowledge I have gained of python and recently the tkinter and pynput libraries to create an original, similar looking app.
+My inspiration for this app was from AutoClicker by mousetool.
